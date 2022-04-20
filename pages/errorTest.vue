@@ -5,7 +5,7 @@
     <template #error="{ error }">
       You can display the error locally here.
       <button @click="error = null">
-        This will clear the error.1
+        This will clear the error.
       </button>
     </template>
   </NuxtErrorBoundary>
