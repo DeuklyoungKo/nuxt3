@@ -53,3 +53,11 @@ nuxt start
 
 Learn more at https://nuxtjs.org/guide/commands#production-deployment
 
+
+---
+
+
+# for Test
+```
+curl -X POST "http://localhost:3000/api/test"
+```

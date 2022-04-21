@@ -1,0 +1,1 @@
+export default defineEventHandler(event => `test, ${event.context.params.name}!`)
