@@ -1,0 +1,16 @@
+export default defineNuxtRouteMiddleware((to) => {
+
+  
+
+  const { $config } = useNuxtApp()
+
+  console.log($config);
+  console.log("middleware auth.js");
+  
+
+  // if ($config) {
+  //   console.log('Accessed runtime config within middleware.')
+  // }
+  // console.log('Heading to', to.path, 'but I think we should go somewhere else...')
+  // return '/login'
+})
