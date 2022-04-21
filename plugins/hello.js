@@ -1,7 +1,7 @@
 export default defineNuxtPlugin(() => {
     return {
       provide: {
-        hello: (inNumber) => 'world'+inNumber*2
+        hello: (inNumber) => 'world'+inNumber*3
       }
     }
   })
